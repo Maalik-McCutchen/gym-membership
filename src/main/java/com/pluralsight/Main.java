@@ -8,7 +8,7 @@ public class Main {
         Membership henryClark = new Membership("Henry Clark", 3, new BigDecimal("30.00"));
 
         System.out.println("=== Gym Memberships ===");
-        System.out.println(henryClark.getMemberName() + ", " + henryClark.getMonths() + " months, " + henryClark.getBaseRate() + " per month");
+        System.out.println(henryClark.getMemberName() + ", " + henryClark.getMonths() + " months, $" + henryClark.getMonthlyPrice() + " per month");
 
     }
 }
