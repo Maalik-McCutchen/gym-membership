@@ -30,5 +30,12 @@ public class Main {
         carolWhite.useGuestPass();
         frankMiller.useGuestPass();
 
+        System.out.println();
+        System.out.println("--- Sign-up fee and contract total ---");
+        System.out.println(henryClark.getMemberName() + ": fee $" + henryClark.getSignUpFee() + ", total $" + henryClark.getContractTotal());
+        System.out.println(carolWhite.getMemberName() + ": fee $" + carolWhite.getSignUpFee() + ", total $" + carolWhite.getContractTotal());
+        System.out.println(frankMiller.getMemberName() + ": fee $" + frankMiller.getSignUpFee() + ", total $" + frankMiller.getContractTotal());
+        System.out.println(graceLee.getMemberName() + ": fee $" + graceLee.getSignUpFee() + ", total $" + graceLee.getContractTotal());
+
     }
 }
