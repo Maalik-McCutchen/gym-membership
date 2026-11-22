@@ -54,5 +54,10 @@ public class Membership {
         return total;
     }
 
-
+    @Override
+    public String toString() {
+        return "Membership" +
+                " | " + memberName +
+                " | " + months + " months";
+    }
 }

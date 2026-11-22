@@ -46,4 +46,9 @@ public class PremiumMembership extends Membership {
 
         return new BigDecimal("49.00");
     }
+
+    @Override
+    public String toString() {
+        return "Premium " + "| " + getMemberName() + " | " + getMonths() + " months" + " | " + "guest passes: " + guestPasses;
+    }
 }

@@ -15,13 +15,13 @@ public class Main {
 
         System.out.println();
         System.out.println("=== Gym Memberships ===");
-        System.out.println(henryClark.getMemberName() + ", " + henryClark.getMonths() + " months, $" + henryClark.getMonthlyPrice() + " per month");
-        System.out.println(aliceJohnson.getMemberName() + ", " + aliceJohnson.getMonths() + " months, $" + aliceJohnson.getMonthlyPrice() + " per month");
-        System.out.println(bobSmith.getMemberName() + ", " + bobSmith.getMonths() + " months, $" + bobSmith.getMonthlyPrice() + " per month");
-        System.out.println(carolWhite.getMemberName() + ", " + carolWhite.getMonths() + " months, $" + carolWhite.getMonthlyPrice() + " per month");
-        System.out.println(frankMiller.getMemberName() + ", " + frankMiller.getMonths() + " months, $" + frankMiller.getMonthlyPrice() + " per month");
-        System.out.println(graceLee.getMemberName() + ", " + graceLee.getMonths() + " months, $" + graceLee.getMonthlyPrice() + " per month");
-        System.out.println(emmaWilson.getMemberName() + ", " + emmaWilson.getMonths() + " months, $" + emmaWilson.getMonthlyPrice() + " per month");
+        System.out.println(henryClark);
+        System.out.println(aliceJohnson);
+        System.out.println(bobSmith);
+        System.out.println(carolWhite);
+        System.out.println(frankMiller);
+        System.out.println(graceLee);
+        System.out.println(emmaWilson);
 
         System.out.println();
         System.out.println("--- Guest passes ---");
