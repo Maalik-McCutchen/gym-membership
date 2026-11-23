@@ -9,7 +9,8 @@ public class Main {
 
         List<Membership> memberships = new ArrayList<>();
 
-        Membership henryClark = new Membership("Henry Clark", 3, new BigDecimal("30.00"));
+        // 'Membership' is abstract; cannot be instantiated
+        //Membership henryClark = new Membership("Henry Clark", 3, new BigDecimal("30.00"));
         BasicMembership aliceJohnson = new BasicMembership("Alice Johnson", 6, new BigDecimal("30.00"), true);
         BasicMembership bobSmith = new BasicMembership("Bob Smith", 2, new BigDecimal("27.50"), false);
         PremiumMembership carolWhite = new PremiumMembership("Carol White", 12, new BigDecimal("30.00"), 2);
@@ -17,7 +18,8 @@ public class Main {
         FamilyMembership graceLee = new FamilyMembership("Grace Lee", 12, new BigDecimal("30.00"), 3 );
         FamilyMembership emmaWilson = new FamilyMembership("Emma Wilson", 6, new BigDecimal("30.00"), 1 );
 
-        memberships.add(henryClark);
+        // Cannot resolve symbol 'henryClark'
+        //memberships.add(henryClark);
         memberships.add(aliceJohnson);
         memberships.add(bobSmith);
         memberships.add(carolWhite);
